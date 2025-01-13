@@ -1,0 +1,37 @@
+Detected at node ScatterNd defined at (most recent call last):
+  File "C:\Users\adwai\Downloads\Final-Project\train_cnn_skin.py", line 71, in <module>
+
+  File "C:\Users\adwai\Downloads\Final-Project\train_cnn_skin.py", line 47, in train_model
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\utils\traceback_utils.py", line 117, in error_handler
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 368, in fit
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 216, in function
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 129, in multi_step_on_iterator
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 110, in one_step_on_data
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\backend\tensorflow\trainer.py", line 82, in train_step
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\trainers\trainer.py", line 492, in compute_metrics
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\trainers\compile_utils.py", line 333, in update_state
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\trainers\compile_utils.py", line 20, in update_state
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\metrics\iou_metrics.py", line 129, in update_state
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\metrics\metrics_utils.py", line 682, in confusion_matrix
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\ops\core.py", line 317, in scatter
+
+  File "C:\Users\adwai\anaconda3\Lib\site-packages\keras\src\backend\tensorflow\core.py", line 571, in scatter
+
+indices[131071] = [2, 0] does not index into shape [2,2]
+         [[{{node ScatterNd}}]] [Op:__inference_multi_step_on_iterator_3638]
+
+
+
+error while training
